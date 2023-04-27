@@ -1,0 +1,8 @@
+<meta charset="UTF-8">
+<script>
+    const cotacao = prompt (`Qual a cotação do euro?`)
+    const euros = prompt (`Quantos euros serão necessários para sua viagem?`).replace(",", ".")
+    const reais = Math.ceil (Number(cotacao)* Number(euros))
+
+document.write (`O custo da sua viagem, em reais é de ${reais} reais`)
+</script>

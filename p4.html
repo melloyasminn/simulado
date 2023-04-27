@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<script>
+    const parede = prompt (`Qual o tamanho da parede que você quer construir? Informe-o em metros quadrados`)
+
+    const metrotijolo = Number(19) * Number(0,01) 
+    const m2tijolo = metrotijolo * metrotijolo
+    const total = (Number(parede) - Number((parede * 0.03))) 
+const total2 = Math.ceil(Number(total) / Number(m2tijolo))
+
+
+document.write (`Você precisará de ${total2} tijolos para construir sua parede`)
+</script>
